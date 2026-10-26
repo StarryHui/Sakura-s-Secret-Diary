@@ -343,6 +343,19 @@ body {
   align-items: start;
 }
 
+/* Text-Only Mode (Zero image, 100% full-width adaptive layout) */
+.diary-body.no-cover {
+  display: block;
+}
+
+.diary-body.no-cover .diary-text-content {
+  width: 100%;
+}
+
+.diary-body.no-cover .section-box {
+  padding: 20px 24px;
+}
+
 .diary-cover-box {
   width: 100%;
   aspect-ratio: 4/5;

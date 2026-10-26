@@ -172,6 +172,15 @@ function renderDiaries() {
       `;
     }
 
+    const hasCover = !!d.cover_image && String(d.cover_image).trim() !== "";
+    const coverHtml = hasCover
+      ? `
+        <div class="diary-cover-box" onclick="openLightbox('${d.cover_image}')">
+          <img src="${d.cover_image}" loading="lazy" decoding="async" alt="Sakura's lifestyle cover" onerror="this.src='images/avatar.jpg'"/>
+        </div>
+      `
+      : "";
+
     card.innerHTML = `
       <div class="diary-meta-bar">
         <div class="date-badge-group">
@@ -186,11 +195,8 @@ function renderDiaries() {
         </div>
       </div>
 
-      <div class="diary-body">
-        <div class="diary-cover-box" onclick="openLightbox('${d.cover_image}')">
-          <img src="${d.cover_image}" loading="lazy" decoding="async" alt="Sakura's lifestyle cover" onerror="this.src='images/avatar.jpg'"/>
-        </div>
-
+      <div class="diary-body ${hasCover ? '' : 'no-cover'}">
+        ${coverHtml}
         <div class="diary-text-content">
           ${sectionsHtml}
           ${d.footnote ? `<div class="diary-footnote">${d.footnote}</div>` : ""}
