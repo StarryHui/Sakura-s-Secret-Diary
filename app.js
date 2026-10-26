@@ -120,15 +120,21 @@ function renderDiaries() {
     let sectionsHtml = "";
     if (Array.isArray(d.sections) && d.sections.length > 0) {
       sectionsHtml = d.sections.map((sec) => {
-        const isAcademic = !!sec.paper_title || (sec.domain && sec.domain.includes("cs."));
-        const understoodBadge = sec.understood !== undefined
+        const isTech = !!sec.paper_title || !!sec.domain;
+        let prefixIcon = "📄";
+        const domainStr = String(sec.domain || sec.category_tag || "");
+        if (domainStr.includes("开源") || domainStr.includes("⭐") || domainStr.includes("github")) prefixIcon = "⭐";
+        else if (domainStr.includes("历史") || domainStr.includes("💡") || domainStr.includes("黑客")) prefixIcon = "💡";
+        else if (domainStr.includes("硬件") || domainStr.includes("⚡") || domainStr.includes("八卦")) prefixIcon = "⚡";
+
+        const understoodBadge = (sec.understood !== undefined && (prefixIcon === "📄" || domainStr.includes("学术")))
           ? (sec.understood
               ? `<span class="paper-badge" style="background:#c6f6d5; color:#22543d;">✅ 居然看懂了</span>`
               : `<span class="paper-badge" style="background:#fed7d7; color:#742a2a;">🤯 看不懂炸毛了</span>`)
           : "";
 
         return `
-          <div class="section-box ${isAcademic ? 'academic' : ''}">
+          <div class="section-box ${isTech ? 'academic' : ''}">
             <div class="section-title">
               <span>${sec.icon || "🐾"}</span>
               <span>${sec.title || "今日碎片"}</span>
@@ -138,9 +144,9 @@ function renderDiaries() {
               sec.paper_title
                 ? `
                 <div class="paper-link-line">
-                  <span class="paper-badge">${sec.domain || "科技前沿"}</span>
+                  <span class="paper-badge">${sec.domain || sec.category_tag || "科技漫游"}</span>
                   <a href="${sec.paper_url || '#'}" target="_blank" rel="noopener">
-                    📄 ${sec.paper_title} ↗
+                    ${prefixIcon} ${sec.paper_title} ↗
                   </a>
                 </div>
               `
