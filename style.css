@@ -99,16 +99,7 @@ body {
   box-shadow: 0 4px 12px rgba(79, 174, 199, 0.2);
 }
 
-.online-badge {
-  position: absolute;
-  bottom: 2px;
-  right: 2px;
-  width: 16px;
-  height: 16px;
-  background: #48bb78;
-  border: 2px solid #fff;
-  border-radius: 50%;
-}
+
 
 .header-info h1 {
   font-size: 1.6rem;
