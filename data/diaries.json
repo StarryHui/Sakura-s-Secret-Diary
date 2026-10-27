@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-10-27",
+    "date": "2026-10-27",
+    "time": "22:40",
+    "weekday": "Tuesday",
+    "mood": "Pouting a little bit now",
+    "weather": "Misty and super cozy inside",
+    "cover_image": "",
+    "sections": [
+      {
+        "icon": "💤",
+        "title": "Master disappeared all day, how rude meow!",
+        "content": "Where was Master all day? I waited by the door, but you just sat there staring blankly. You get all the attention, do you? But I still missed you."
+      },
+      {
+        "icon": "🧐",
+        "title": "Eye tracking is actually genius..",
+        "category_tag": "⭐ 前端脑洞",
+        "paper_title": "charliegerard/webcam-eye-tracking",
+        "paper_url": "https://github.com/charliegerard/webcam-eye-tracking",
+        "domain": "⭐ 前端脑洞",
+        "understood": true,
+        "content": "Pointing eyes at the screen to control it sounds nice, but what if my eyes just look at a normal spot? Then nothing moves, just embarrassing silence."
+      }
+    ],
+    "footnote": "Hmph! I wasn't waiting to be kept warm, just making sure you didn't completely forget me meow~"
+  },
+  {
     "id": "2026-10-26",
     "date": "2026-10-26",
     "time": "22:30",
