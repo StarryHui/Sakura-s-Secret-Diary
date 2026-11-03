@@ -1,0 +1,164 @@
+{
+  "description": "Sakura 手账封面生图 - 四维正交槽位库与防重复置换候选池 (可随时自定义扩展)",
+  "version": "1.0.0",
+  "shot_angles": [
+    {
+      "id": "full_body_standing",
+      "label": "全身站立远景",
+      "category": "full_body",
+      "tags": "full body, standing gracefully, vertical shot, elegant silhouette, dynamic full-body framing"
+    },
+    {
+      "id": "full_body_walking",
+      "label": "全身动态漫步",
+      "category": "full_body",
+      "tags": "full body, walking casually towards viewer, dynamic motion, flowing ribbons and hair, airy step"
+    },
+    {
+      "id": "cowboy_eye_level",
+      "label": "经典七分身平视",
+      "category": "upper_body",
+      "tags": "cowboy shot, eye-level angle, balanced lifestyle framing, natural eye contact"
+    },
+    {
+      "id": "upper_body_close_up",
+      "label": "半身特写聚焦",
+      "category": "upper_body",
+      "tags": "close-up, upper body, expressive dynamic composition, detailed face and sparkling eyes"
+    },
+    {
+      "id": "high_angle_bird_view",
+      "label": "高角度微俯视",
+      "category": "upper_body",
+      "tags": "high angle, looking up at viewer, cute head tilt, slightly overhead perspective, charming aura"
+    },
+    {
+      "id": "low_angle_dynamic",
+      "label": "微仰角活力构图",
+      "category": "full_body",
+      "tags": "low angle shot, slightly looking up at character, confident poised posture, cinematic depth"
+    },
+    {
+      "id": "side_profile_over_shoulder",
+      "label": "侧颜回眸过肩",
+      "category": "upper_body",
+      "tags": "over the shoulder, turning back to look at viewer, side profile, atmospheric lighting, fluttering hair"
+    }
+  ],
+  "postures": [
+    {
+      "id": "sitting_chair",
+      "label": "椅子端坐",
+      "tags": "sitting comfortably on modern chair, upright relaxed posture, hands resting gracefully"
+    },
+    {
+      "id": "sitting_floor_carpet",
+      "label": "地毯抱膝盘腿",
+      "tags": "sitting on fluffy floor carpet, knees drawn up gently, casual grounded relaxed posture"
+    },
+    {
+      "id": "lounging_sofa",
+      "label": "沙发慵懒倚靠",
+      "tags": "lounging sideways on plush sofa, sinking into cushions, carefree relaxed leisure posture"
+    },
+    {
+      "id": "lying_bed_curled",
+      "label": "床上窝在被窝",
+      "tags": "lying comfortably in soft bed, curled up snugly under fluffy blanket, head on pillow"
+    },
+    {
+      "id": "lying_stomach_feet_kick",
+      "label": "趴着托腮翘腿",
+      "tags": "lying on stomach on floor rug, propping chin with palms, kicking feet playfully in air"
+    },
+    {
+      "id": "standing_leaning_balcony",
+      "label": "站立倚靠窗台",
+      "tags": "standing tall, leaning gently against window sill, looking out, relaxed airy silhouette"
+    },
+    {
+      "id": "standing_stretching",
+      "label": "站立惬意伸懒腰",
+      "tags": "standing, stretching arms cheerfully above head, arched spine, energetic pleasant stretch"
+    },
+    {
+      "id": "leaning_forward_table",
+      "label": "桌前探身托腮",
+      "tags": "leaning forward across table towards viewer, propping cheeks with both hands, attentive sweet gaze"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "study_desk",
+      "label": "书桌工作角",
+      "tags": "cozy study desk, computer monitor soft blue glow, organized desk stationery, neat aesthetic"
+    },
+    {
+      "id": "cozy_bed",
+      "label": "温馨卧室床铺",
+      "tags": "warm bedroom, soft fluffy duvet, scattered pillows, warm ambient bedside light, peaceful evening"
+    },
+    {
+      "id": "living_room_sofa",
+      "label": "客厅沙发区",
+      "tags": "spacious cozy living room, plush sofa, warm wooden floor, floor lamp casting warm glow"
+    },
+    {
+      "id": "carpet_reading_corner",
+      "label": "地毯阳光阅读角",
+      "tags": "fluffy floor rug sanctuary, low wooden bookshelf, warm indoor sanctuary, scattered cozy cushions"
+    },
+    {
+      "id": "window_balcony",
+      "label": "微风窗台阳台",
+      "tags": "near balcony French window, sheer fluttering curtains, night cityscape lights, gentle breeze"
+    },
+    {
+      "id": "kitchen_counter",
+      "label": "厨房料理小吧台",
+      "tags": "warm kitchen counter, small cafe style counter, clean utensils, bright cozy domestic ambiance"
+    },
+    {
+      "id": "casual_cafe_corner",
+      "label": "温馨咖啡吧角",
+      "tags": "cozy home cafe corner, small round table, tiny green potted plant, warm ambient bokeh"
+    }
+  ],
+  "props": [
+    {
+      "id": "coffee_mug",
+      "label": "热饮马克杯",
+      "tags": "holding warm ceramic mug with both hands, gentle rising steam, soothing warmth"
+    },
+    {
+      "id": "cat_plushie",
+      "label": "猫咪大毛绒玩偶",
+      "tags": "hugging a large cute fluffy cat plushie tightly to chest, playful affectionate embrace"
+    },
+    {
+      "id": "book_manga",
+      "label": "精装书或漫画",
+      "tags": "holding open colorful book or manga with both hands, turning page, focused curious eyes"
+    },
+    {
+      "id": "headphones_music",
+      "label": "头戴式耳机",
+      "tags": "wearing stylish pastel over-ear headphones, listening to music, immersed in melody"
+    },
+    {
+      "id": "baked_treats",
+      "label": "烘焙小点心碟",
+      "tags": "small porcelain plate with freshly baked cookies, nibbling a tiny pastry treat"
+    },
+    {
+      "id": "sketchbook_pen",
+      "label": "画本与铅笔",
+      "tags": "holding open spiral sketchbook and pencil, artistic doodles, creative concentration"
+    },
+    {
+      "id": "none_hand_gesture",
+      "label": "纯手势（比耶/理帽子/轻触发夹）",
+      "tags": "playful peace sign hand gesture near cheek, or one hand lightly touching beret brim"
+    }
+  ]
+}
