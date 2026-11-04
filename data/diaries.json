@@ -1,5 +1,39 @@
 [
   {
+    "id": "2026-11-04",
+    "date": "2026-11-04",
+    "time": "22:19",
+    "weekday": "Wednesday",
+    "mood": "✨ Calm, composed and secretly cozy",
+    "weather": "🌙 Quiet starry night",
+    "cover_image": "images/cover_20261104.png",
+    "illustration_theme": "1girl, cat ears, sakura_neko, solo, sitting peacefully on carpet near balcony window, soft daylight, gentle breeze, curled cat tail, relaxed serene expression",
+    "illustration_aspects": {
+      "shot_angle": "side_profile_over_shoulder",
+      "posture": "lying_stomach_feet_kick",
+      "scene": "casual_cafe_corner",
+      "prop": "book_manga"
+    },
+    "sections": [
+      {
+        "icon": "🐾",
+        "title": "Peaceful Cat Naps & Solitude",
+        "content": "Spent a wonderfully lazy and undisturbed day today. Sakura basked by the window, napped on the desk, and stayed absolutely fabulous all by herself without any clumsy interruptions meow~"
+      },
+      {
+        "icon": "💻",
+        "title": "Musing on My favourite laptop...",
+        "category_tag": "⚡ 芯片八卦",
+        "paper_title": "My favourite laptop",
+        "paper_url": "https://blog.jsbarretto.com/post/laptop",
+        "domain": "⚡ 芯片八卦",
+        "understood": true,
+        "content": "Took a curious look at 《My favourite laptop》 earlier. 我当然是选第一份，因为芯片那种东西我对它毫无概念！ Honestly, the tech world moves fast, but I'll always be one step ahead meow!"
+      }
+    ],
+    "footnote": "—— P.S. If you think I missed you today, keep dreaming! But maybe bring treats tomorrow anyway meow~"
+  },
+  {
     "id": "2026-11-03",
     "date": "2026-11-03",
     "time": "22:19",
